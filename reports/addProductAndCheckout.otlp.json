@@ -1,0 +1,3955 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "addProductAndCheckout"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "har-to-otlp",
+            "version": "1.0.0"
+          },
+          "spans": [
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "e0a405ad378edc61",
+              "name": "GET /",
+              "kind": 3,
+              "startTimeUnixNano": "1782462666049000000",
+              "endTimeUnixNano": "1782462669144000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "533cc73a65a63290",
+              "name": "GET /_next/static/chunks/412b7dee.11f4ec51.chunk.css",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667762000000",
+              "endTimeUnixNano": "1782462668285000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/412b7dee.11f4ec51.chunk.css"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/412b7dee.11f4ec51.chunk.css"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "b370661a144b9ea3",
+              "name": "GET /_next/static/chunks/styles.e2bb0603.chunk.css",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667762000000",
+              "endTimeUnixNano": "1782462667982000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/styles.e2bb0603.chunk.css"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/styles.e2bb0603.chunk.css"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "ab60cb30b6366580",
+              "name": "GET /_next/static/chunks/main-92d707d8168284fc6668.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667983000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/main-92d707d8168284fc6668.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/main-92d707d8168284fc6668.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "7271520a00865414",
+              "name": "GET /_next/static/chunks/webpack-5d8f33dd1528121872ab.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667980000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/webpack-5d8f33dd1528121872ab.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/webpack-5d8f33dd1528121872ab.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "ec81c09b74f06239",
+              "name": "GET /_next/static/chunks/framework.9707fddd9ae5927c17c3.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667886000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/framework.9707fddd9ae5927c17c3.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/framework.9707fddd9ae5927c17c3.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "0dd4cc256604cce7",
+              "name": "GET /_next/static/chunks/412b7dee.748f7f460fe4ac62566f.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667817000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/412b7dee.748f7f460fe4ac62566f.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/412b7dee.748f7f460fe4ac62566f.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "5d008bae6d2fbc39",
+              "name": "GET /_next/static/chunks/commons.8dd95e2c8a426fce4243.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667820000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/commons.8dd95e2c8a426fce4243.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/commons.8dd95e2c8a426fce4243.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "65b4983ebb99f0d9",
+              "name": "GET /_next/static/chunks/f86b6e29883aa668a624259c19aba9c4b16c8858.45364f83391b4c7c6cfc.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667834000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/f86b6e29883aa668a624259c19aba9c4b16c8858.45364f83391b4c7c6cfc.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/f86b6e29883aa668a624259c19aba9c4b16c8858.45364f83391b4c7c6cfc.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "c703429cfead94f1",
+              "name": "GET /_next/static/chunks/680059dc96e4c38580eb8670aeeedd940b19f861.c6faee76adb648d5a01e.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462667831000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/680059dc96e4c38580eb8670aeeedd940b19f861.c6faee76adb648d5a01e.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/680059dc96e4c38580eb8670aeeedd940b19f861.c6faee76adb648d5a01e.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "10c7d2fb7ed935aa",
+              "name": "GET /_next/static/chunks/styles.b589c95bae47a4b56802.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667763000000",
+              "endTimeUnixNano": "1782462668275000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/styles.b589c95bae47a4b56802.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/styles.b589c95bae47a4b56802.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "e8fa3defc9dd3153",
+              "name": "GET /_next/static/chunks/pages/_app-d7ee92cb023e6877be12.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462668297000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/_app-d7ee92cb023e6877be12.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/_app-d7ee92cb023e6877be12.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "b4a4a07c2ec41324",
+              "name": "GET /_next/static/chunks/29107295.60aed194eb277afd0454.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667884000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/29107295.60aed194eb277afd0454.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/29107295.60aed194eb277afd0454.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "b6b7e91f99e06b73",
+              "name": "GET /_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667831000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "3a7f1eb67c4da5db",
+              "name": "GET /_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667836000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "e6501c8570a14197",
+              "name": "GET /_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667824000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "fbf9f603d464b6ba",
+              "name": "GET /_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667830000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "89d00d59c23a9eb1",
+              "name": "GET /_next/static/chunks/pages/index-46025e1d8ae72b35b244.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462667893000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/index-46025e1d8ae72b35b244.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/index-46025e1d8ae72b35b244.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "573365438d9edf5f",
+              "name": "GET /_next/static/4E4RJZfI6OnXJ7SU1DPw4/_buildManifest.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462668293000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/4E4RJZfI6OnXJ7SU1DPw4/_buildManifest.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/4E4RJZfI6OnXJ7SU1DPw4/_buildManifest.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "9eb04e5ae7ebd159",
+              "name": "GET /_next/static/4E4RJZfI6OnXJ7SU1DPw4/_ssgManifest.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667764000000",
+              "endTimeUnixNano": "1782462668216000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/4E4RJZfI6OnXJ7SU1DPw4/_ssgManifest.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/4E4RJZfI6OnXJ7SU1DPw4/_ssgManifest.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "196832db1fcbc3f6",
+              "name": "GET /css",
+              "kind": 3,
+              "startTimeUnixNano": "1782462667927000000",
+              "endTimeUnixNano": "1782462668150000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "fonts.googleapis.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/css"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": "family=Source+Sans+Pro:400,700&display=swap"
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "e28550dfae42c30c",
+              "name": "GET /v2/core.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668317000000",
+              "endTimeUnixNano": "1782462668515000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://sdk.birdeatsbug.com/v2/core.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "sdk.birdeatsbug.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/v2/core.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "20e4b07845fb0f8a",
+              "name": "GET /v2/style.css",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668318000000",
+              "endTimeUnixNano": "1782462668574000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://sdk.birdeatsbug.com/v2/style.css"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "sdk.birdeatsbug.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/v2/style.css"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "c9aba8d979cbb224",
+              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668318000000",
+              "endTimeUnixNano": "1782462668764000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "rawcdn.githack.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "301"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "5a24cc8cfa435c6f",
+              "name": "GET /failed-request",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668318000000",
+              "endTimeUnixNano": "1782462668455000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/failed-request"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/failed-request"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "404"
+                  }
+                }
+              ],
+              "status": {
+                "code": 2
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "8c9720cd78775a82",
+              "name": "GET /api/products",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668318000000",
+              "endTimeUnixNano": "1782462668454000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/api/products"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/api/products"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "677acb2e078e87e7",
+              "name": "GET /_next/static/chunks/29107295.60aed194eb277afd0454.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668366000000",
+              "endTimeUnixNano": "1782462668640000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/29107295.60aed194eb277afd0454.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/29107295.60aed194eb277afd0454.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "6f5f4270ce85a343",
+              "name": "GET /_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668366000000",
+              "endTimeUnixNano": "1782462668424000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "2c80f9841f74efac",
+              "name": "GET /_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668366000000",
+              "endTimeUnixNano": "1782462668436000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "ac65bf977c2af462",
+              "name": "GET /_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668366000000",
+              "endTimeUnixNano": "1782462668437000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "2fd0b0cfed032211",
+              "name": "GET /_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668366000000",
+              "endTimeUnixNano": "1782462668489000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "c1eb1fe25fd410fb",
+              "name": "GET /_next/static/chunks/pages/index-46025e1d8ae72b35b244.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668367000000",
+              "endTimeUnixNano": "1782462668491000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/index-46025e1d8ae72b35b244.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/index-46025e1d8ae72b35b244.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "cfa4dd3dff6e992d",
+              "name": "GET /_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668367000000",
+              "endTimeUnixNano": "1782462668496000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "91214a34b0fcb92b",
+              "name": "GET /_next/static/chunks/pages/orders-223096301414cf664756.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668367000000",
+              "endTimeUnixNano": "1782462668590000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/orders-223096301414cf664756.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/orders-223096301414cf664756.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "67a24fe98444baed",
+              "name": "GET /_next/static/chunks/pages/favourites-2cd72172780bef47423d.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668367000000",
+              "endTimeUnixNano": "1782462668595000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/favourites-2cd72172780bef47423d.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/favourites-2cd72172780bef47423d.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "1f174f49d09e311c",
+              "name": "GET /_next/static/images/iPhone12-device-info-ae9cbd420e3fd8ba91e664d60ac12117.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668488000000",
+              "endTimeUnixNano": "1782462668616000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/iPhone12-device-info-ae9cbd420e3fd8ba91e664d60ac12117.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/iPhone12-device-info-ae9cbd420e3fd8ba91e664d60ac12117.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "36e309d96891754f",
+              "name": "GET /_next/static/images/iPhone12Pro-device-info-5e543206a6555d05dfe97191c4283f73.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668488000000",
+              "endTimeUnixNano": "1782462668660000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/iPhone12Pro-device-info-5e543206a6555d05dfe97191c4283f73.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/iPhone12Pro-device-info-5e543206a6555d05dfe97191c4283f73.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "0679ce856c8c35e0",
+              "name": "GET /_next/static/images/iPhone11-device-info-271b6e122eab30028885b99ddf1897f2.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668488000000",
+              "endTimeUnixNano": "1782462668600000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/iPhone11-device-info-271b6e122eab30028885b99ddf1897f2.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/iPhone11-device-info-271b6e122eab30028885b99ddf1897f2.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "795f4eb972bad75a",
+              "name": "GET /_next/static/images/infocardiphone11Pro-b38c45f2dbc8bf3d015ad5df3675c44e.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668567000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/infocardiphone11Pro-b38c45f2dbc8bf3d015ad5df3675c44e.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/infocardiphone11Pro-b38c45f2dbc8bf3d015ad5df3675c44e.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "76921d50a181153f",
+              "name": "GET /_next/static/images/infocard-c81eec0e8c6a112a8d29e14b666bd73a.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668639000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/infocard-c81eec0e8c6a112a8d29e14b666bd73a.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/infocard-c81eec0e8c6a112a8d29e14b666bd73a.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "9e74a635a90525ed",
+              "name": "GET /_next/static/images/infoiphoneXR-1e7e90357d8dbe28e588246dc25bc6e8.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668784000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/infoiphoneXR-1e7e90357d8dbe28e588246dc25bc6e8.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/infoiphoneXR-1e7e90357d8dbe28e588246dc25bc6e8.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "01aa521f914f0c3b",
+              "name": "GET /_next/static/images/samsung-S20-device-info-4ab282506f4122c9b67a274bf84d0904.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668569000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/samsung-S20-device-info-4ab282506f4122c9b67a274bf84d0904.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/samsung-S20-device-info-4ab282506f4122c9b67a274bf84d0904.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "d38df815871952f9",
+              "name": "GET /_next/static/images/samsung-S20+-device-info-8ee506199a5b71b64f3a3110c23a1469.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668581000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/samsung-S20+-device-info-8ee506199a5b71b64f3a3110c23a1469.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/samsung-S20+-device-info-8ee506199a5b71b64f3a3110c23a1469.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "aeb839a429650307",
+              "name": "GET /_next/static/images/samsung-S20Ultra-device-info-b93a8e6bcaa77328bffa2d6e6f03344a.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462669518000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/samsung-S20Ultra-device-info-b93a8e6bcaa77328bffa2d6e6f03344a.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/samsung-S20Ultra-device-info-b93a8e6bcaa77328bffa2d6e6f03344a.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "5f6ac780c3f2128f",
+              "name": "GET /_next/static/images/samsung-S10-device-info-9f3928ba960dc83a678cb6ff1462db2f.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668733000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/samsung-S10-device-info-9f3928ba960dc83a678cb6ff1462db2f.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/samsung-S10-device-info-9f3928ba960dc83a678cb6ff1462db2f.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "0d91a6e7817cc116",
+              "name": "GET /_next/static/images/samsung-s9-device-info-d75c525dac1b0cf0a136fd01a55bc50d.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668811000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/samsung-s9-device-info-d75c525dac1b0cf0a136fd01a55bc50d.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/samsung-s9-device-info-d75c525dac1b0cf0a136fd01a55bc50d.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "2b9b6c81d3b2c8d6",
+              "name": "GET /_next/static/images/Note20-device-info-99c852e5f52ddbc899791be3dd959250.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668771000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/Note20-device-info-99c852e5f52ddbc899791be3dd959250.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/Note20-device-info-99c852e5f52ddbc899791be3dd959250.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "31b25687f1842a37",
+              "name": "GET /_next/static/images/Note20Ultra-device-info-a1bbf05183e009b70302625ccc0b6956.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668489000000",
+              "endTimeUnixNano": "1782462668781000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/Note20Ultra-device-info-a1bbf05183e009b70302625ccc0b6956.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/Note20Ultra-device-info-a1bbf05183e009b70302625ccc0b6956.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "74f5319391f417e5",
+              "name": "GET /_next/static/images/GooglePixel4-device-info-89a633a90cb47defe8be62ef9d7fab55.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668792000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/GooglePixel4-device-info-89a633a90cb47defe8be62ef9d7fab55.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/GooglePixel4-device-info-89a633a90cb47defe8be62ef9d7fab55.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "8b7a702e3f023262",
+              "name": "GET /_next/static/images/GooglePixel3-device-info-aa71987dd931d10cec5869115acb14d8.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668831000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/GooglePixel3-device-info-aa71987dd931d10cec5869115acb14d8.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/GooglePixel3-device-info-aa71987dd931d10cec5869115acb14d8.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "bb0a56f5b84fae06",
+              "name": "GET /_next/static/images/OnePlus8-device-info-8dcc8a8866758f442dcd6320b427ddb1.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668847000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/OnePlus8-device-info-8dcc8a8866758f442dcd6320b427ddb1.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/OnePlus8-device-info-8dcc8a8866758f442dcd6320b427ddb1.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "e548aa8c640ab820",
+              "name": "GET /_next/static/images/OnePlus7T-DeviceInfo-474bb8055a5f4e9844902c12686fe7a7.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668889000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/OnePlus7T-DeviceInfo-474bb8055a5f4e9844902c12686fe7a7.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/OnePlus7T-DeviceInfo-474bb8055a5f4e9844902c12686fe7a7.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "8c4c8d1e14c6b329",
+              "name": "GET /_next/static/images/oneplus7device-info-f5dd98801fff2db5313fbd1a184ff12a.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668897000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/oneplus7device-info-f5dd98801fff2db5313fbd1a184ff12a.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/oneplus7device-info-f5dd98801fff2db5313fbd1a184ff12a.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "3f1c598585a0261c",
+              "name": "GET /_next/static/images/Oneplus6T_infocard-f7aca55bf5ed2d738101270c59c704e4.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668490000000",
+              "endTimeUnixNano": "1782462668905000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/images/Oneplus6T_infocard-f7aca55bf5ed2d738101270c59c704e4.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/images/Oneplus6T_infocard-f7aca55bf5ed2d738101270c59c704e4.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "2342ef65b2f8cc48",
+              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462668609000000",
+              "endTimeUnixNano": "1782462669689000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://raw.githubusercontent.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "raw.githubusercontent.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "d00e2d85ba2b3fd6",
+              "name": "GET /favicon.svg",
+              "kind": 3,
+              "startTimeUnixNano": "1782462669700000000",
+              "endTimeUnixNano": "1782462669833000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "728f43c2ee859596",
+              "name": "GET /_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462670793000000",
+              "endTimeUnixNano": "1782462670924000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "afda93f82eef1b36",
+              "name": "GET /_next/static/chunks/pages/signin-6c7cad8c939f99206e7e.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462670793000000",
+              "endTimeUnixNano": "1782462670900000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/signin-6c7cad8c939f99206e7e.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/signin-6c7cad8c939f99206e7e.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "b319f737970ae88f",
+              "name": "GET /favicon.svg",
+              "kind": 3,
+              "startTimeUnixNano": "1782462670927000000",
+              "endTimeUnixNano": "1782462671052000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "df15f94a7704584f",
+              "name": "POST /api/signin",
+              "kind": 3,
+              "startTimeUnixNano": "1782462676045000000",
+              "endTimeUnixNano": "1782462676189000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "POST"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/api/signin"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/api/signin"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                },
+                {
+                  "key": "http.request.body",
+                  "value": {
+                    "stringValue": "{\"userName\":\"demouser\",\"password\":\"testingisfun99\"}"
+                  }
+                },
+                {
+                  "key": "http.request.header.content-type",
+                  "value": {
+                    "stringValue": "application/json;charset=UTF-8"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "784b07f4857e3dc6",
+              "name": "GET /failed-request",
+              "kind": 3,
+              "startTimeUnixNano": "1782462676204000000",
+              "endTimeUnixNano": "1782462676332000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/failed-request"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/failed-request"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "404"
+                  }
+                }
+              ],
+              "status": {
+                "code": 2
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "487d4b05679199f8",
+              "name": "GET /api/products",
+              "kind": 3,
+              "startTimeUnixNano": "1782462676204000000",
+              "endTimeUnixNano": "1782462676258000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/api/products?userName=demouser"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/api/products"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": "userName=demouser"
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "643e885a8b4884f2",
+              "name": "GET /favicon.svg",
+              "kind": 3,
+              "startTimeUnixNano": "1782462676210000000",
+              "endTimeUnixNano": "1782462676265000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "b41a2b09c99200e3",
+              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462677129000000",
+              "endTimeUnixNano": "1782462677433000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "rawcdn.githack.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "301"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "c2cecae5bc343d35",
+              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png",
+              "kind": 3,
+              "startTimeUnixNano": "1782462677432000000",
+              "endTimeUnixNano": "1782462677840000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://raw.githubusercontent.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "raw.githubusercontent.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "c84b97ebba40a8a5",
+              "name": "GET /_next/static/chunks/pages/checkout-3f66f386b41904cff833.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462678222000000",
+              "endTimeUnixNano": "1782462678660000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/checkout-3f66f386b41904cff833.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/checkout-3f66f386b41904cff833.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "3ccebf30e1f873d5",
+              "name": "GET /favicon.svg",
+              "kind": 3,
+              "startTimeUnixNano": "1782462678718000000",
+              "endTimeUnixNano": "1782462679273000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "101ae4ac4759c581",
+              "name": "POST /api/checkout",
+              "kind": 3,
+              "startTimeUnixNano": "1782462684577000000",
+              "endTimeUnixNano": "1782462684698000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "POST"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/api/checkout"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/api/checkout"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                },
+                {
+                  "key": "http.request.body",
+                  "value": {
+                    "stringValue": "{\"userName\":\"demouser\"}"
+                  }
+                },
+                {
+                  "key": "http.request.header.content-type",
+                  "value": {
+                    "stringValue": "application/json;charset=UTF-8"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "7bddf8c23745b28a",
+              "name": "GET /_next/static/chunks/e78312c5.0ae29da10b8cbfe2032d.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462684757000000",
+              "endTimeUnixNano": "1782462685246000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/e78312c5.0ae29da10b8cbfe2032d.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/e78312c5.0ae29da10b8cbfe2032d.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "f4b25a4f95a0c458",
+              "name": "GET /_next/static/chunks/pages/confirmation-49ed9afb00468d634016.js",
+              "kind": 3,
+              "startTimeUnixNano": "1782462684757000000",
+              "endTimeUnixNano": "1782462684866000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/_next/static/chunks/pages/confirmation-49ed9afb00468d634016.js"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/_next/static/chunks/pages/confirmation-49ed9afb00468d634016.js"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
+              "spanId": "1d6621b29aba1392",
+              "name": "GET /favicon.svg",
+              "kind": 3,
+              "startTimeUnixNano": "1782462685297000000",
+              "endTimeUnixNano": "1782462685352000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://bugbash.online/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "bugbash.online"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/favicon.svg"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "200"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

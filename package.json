@@ -1,0 +1,21 @@
+{
+  "name": "feuji_hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:k6": "winget install --id GrafanaLabs.k6 -e --accept-package-agreements --accept-source-agreements",
+    "check:k6": "k6 version",
+    "ingest:traffic": "node utilities/traffic-ingest.js",
+    "pipeline": "node run-pipeline.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "har-to-k6": "^0.14.15",
+    "pptxgenjs": "^4.0.1"
+  }
+}

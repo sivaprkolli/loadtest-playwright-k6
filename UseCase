@@ -1,0 +1,36 @@
+Automated Load Test Script Generation from Production Traffic
+
+Objective:
+Develop a system capable of automatically generating realistic load testing scripts based on production traffic patterns, significantly reducing manual scripting effort.
+
+
+Key Capabilities:
+•	Traffic Data Ingestion:
+Collects and analyzes data from: 
+o	Application logs 
+o	API gateway logs 
+o	OpenTelemetry traces 
+o	Observability platforms 
+•	User Journey Identification:
+Applies clustering and behavioral analysis to group requests into realistic user workflows and journeys. 
+•	Automatic Script Generation:
+Produces executable load testing scripts compatible with tools such as: 
+o	JMeter 
+o	k6 
+o	Gatling 
+•	Dynamic Test Data Handling:
+Automatically manages: 
+o	Correlation of dynamic values 
+o	Parameterization of inputs 
+o	Simulation of realistic think times and user behavior 
+
+Expected Outcomes:
+•	Immediate generation of realistic load test scripts 
+•	Significant reduction in manual scripting time and effort 
+•	Improved accuracy of performance testing through production-like traffic patterns 
+
+Business Value:
+•	Accelerates performance testing setup 
+•	Enhances test realism and coverage 
+•	Enables faster validation of system scalability and resilience
+
