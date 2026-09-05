@@ -1,0 +1,32 @@
+flowchart LR
+    subgraph Sources["Traffic Sources"]
+        Journey["Playwright journeys"]
+        Imports["Logs and OTel exports"]
+        App["bugbash.online"]
+    end
+    subgraph Capture["Capture"]
+        Har["HAR traffic"]
+        Ingest["Traffic ingest"]
+    end
+    subgraph Convert["Convert and Enrich"]
+        Direct["HAR to k6"]
+        Trace["HAR to OTLP"]
+        Otlp["OTLP to k6"]
+        Enrich["Shared k6 enrichment"]
+    end
+    subgraph Run["Load Test and Report"]
+        K6["k6 runner"]
+        Report["HTML and text reports"]
+    end
+
+    Journey -->|"drives"| App
+    Journey -->|"captures"| Har
+    Imports -->|"normalizes"| Ingest
+    Ingest -->|"writes"| Har
+    Har -->|"generates"| Direct
+    Har -->|"reconstructs spans"| Trace
+    Trace -->|"feeds"| Otlp
+    Direct -->|"raw script"| Enrich
+    Otlp -->|"raw script"| Enrich
+    Enrich -->|"runs"| K6
+    K6 -->|"publishes"| Report

@@ -19,12 +19,12 @@
           },
           "spans": [
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "e0a405ad378edc61",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "6dbc8562389cd1b9",
               "name": "GET /",
               "kind": 3,
-              "startTimeUnixNano": "1782462666049000000",
-              "endTimeUnixNano": "1782462669144000000",
+              "startTimeUnixNano": "1788575115823000000",
+              "endTimeUnixNano": "1788575116134000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -74,12 +74,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "533cc73a65a63290",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "800145f0022da375",
               "name": "GET /_next/static/chunks/412b7dee.11f4ec51.chunk.css",
               "kind": 3,
-              "startTimeUnixNano": "1782462667762000000",
-              "endTimeUnixNano": "1782462668285000000",
+              "startTimeUnixNano": "1788575116095000000",
+              "endTimeUnixNano": "1788575116337000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -129,12 +129,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "b370661a144b9ea3",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "74ba73694c6d7d04",
               "name": "GET /_next/static/chunks/styles.e2bb0603.chunk.css",
               "kind": 3,
-              "startTimeUnixNano": "1782462667762000000",
-              "endTimeUnixNano": "1782462667982000000",
+              "startTimeUnixNano": "1788575116095000000",
+              "endTimeUnixNano": "1788575116321000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -184,12 +184,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "ab60cb30b6366580",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "1d0d5448ccd35850",
               "name": "GET /_next/static/chunks/main-92d707d8168284fc6668.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667983000000",
+              "startTimeUnixNano": "1788575116096000000",
+              "endTimeUnixNano": "1788575116322000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -239,12 +239,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "7271520a00865414",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "fcde6a4485a2ba31",
               "name": "GET /_next/static/chunks/webpack-5d8f33dd1528121872ab.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667980000000",
+              "startTimeUnixNano": "1788575116096000000",
+              "endTimeUnixNano": "1788575116325000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -294,12 +294,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "ec81c09b74f06239",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "52b0388016806abd",
               "name": "GET /_next/static/chunks/framework.9707fddd9ae5927c17c3.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667886000000",
+              "startTimeUnixNano": "1788575116096000000",
+              "endTimeUnixNano": "1788575116423000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -349,12 +349,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "0dd4cc256604cce7",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "af09ab182008c9e3",
               "name": "GET /_next/static/chunks/412b7dee.748f7f460fe4ac62566f.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667817000000",
+              "startTimeUnixNano": "1788575116097000000",
+              "endTimeUnixNano": "1788575116329000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -404,12 +404,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "5d008bae6d2fbc39",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "2512b434849d3e63",
               "name": "GET /_next/static/chunks/commons.8dd95e2c8a426fce4243.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667820000000",
+              "startTimeUnixNano": "1788575116097000000",
+              "endTimeUnixNano": "1788575116162000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -459,12 +459,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "65b4983ebb99f0d9",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "e7a42165e4c820fa",
               "name": "GET /_next/static/chunks/f86b6e29883aa668a624259c19aba9c4b16c8858.45364f83391b4c7c6cfc.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667834000000",
+              "startTimeUnixNano": "1788575116097000000",
+              "endTimeUnixNano": "1788575116179000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -514,12 +514,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "c703429cfead94f1",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "524e6db480e2bc09",
               "name": "GET /_next/static/chunks/680059dc96e4c38580eb8670aeeedd940b19f861.c6faee76adb648d5a01e.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462667831000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116172000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -569,12 +569,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "10c7d2fb7ed935aa",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "d44c9ca4745d1cb5",
               "name": "GET /_next/static/chunks/styles.b589c95bae47a4b56802.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667763000000",
-              "endTimeUnixNano": "1782462668275000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116178000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -624,12 +624,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "e8fa3defc9dd3153",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "5663758aeed086f8",
               "name": "GET /_next/static/chunks/pages/_app-d7ee92cb023e6877be12.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462668297000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116163000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -679,12 +679,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "b4a4a07c2ec41324",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "64aa3f538a79bbac",
               "name": "GET /_next/static/chunks/29107295.60aed194eb277afd0454.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667884000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116226000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -734,12 +734,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "b6b7e91f99e06b73",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "520c4184eea8ea4b",
               "name": "GET /_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667831000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116174000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -789,12 +789,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "3a7f1eb67c4da5db",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "75223340a7efd7cc",
               "name": "GET /_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667836000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116229000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -844,12 +844,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "e6501c8570a14197",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "b97453008444dded",
               "name": "GET /_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667824000000",
+              "startTimeUnixNano": "1788575116098000000",
+              "endTimeUnixNano": "1788575116179000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -899,12 +899,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "fbf9f603d464b6ba",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "dd9da53b7ed0787d",
               "name": "GET /_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667830000000",
+              "startTimeUnixNano": "1788575116099000000",
+              "endTimeUnixNano": "1788575116175000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -954,12 +954,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "89d00d59c23a9eb1",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "b5187d566d3668f9",
               "name": "GET /_next/static/chunks/pages/index-46025e1d8ae72b35b244.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462667893000000",
+              "startTimeUnixNano": "1788575116099000000",
+              "endTimeUnixNano": "1788575116167000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1009,12 +1009,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "573365438d9edf5f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "36f0e157cbff50b2",
               "name": "GET /_next/static/4E4RJZfI6OnXJ7SU1DPw4/_buildManifest.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462668293000000",
+              "startTimeUnixNano": "1788575116099000000",
+              "endTimeUnixNano": "1788575116460000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1064,12 +1064,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "9eb04e5ae7ebd159",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "d12fd6385442d319",
               "name": "GET /_next/static/4E4RJZfI6OnXJ7SU1DPw4/_ssgManifest.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462667764000000",
-              "endTimeUnixNano": "1782462668216000000",
+              "startTimeUnixNano": "1788575116099000000",
+              "endTimeUnixNano": "1788575116464000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1119,12 +1119,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "196832db1fcbc3f6",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "51ec9c3eb8eb112b",
               "name": "GET /css",
               "kind": 3,
-              "startTimeUnixNano": "1782462667927000000",
-              "endTimeUnixNano": "1782462668150000000",
+              "startTimeUnixNano": "1788575116267000000",
+              "endTimeUnixNano": "1788575116441000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1174,12 +1174,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "e28550dfae42c30c",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "6612607401cd0e45",
               "name": "GET /v2/core.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668317000000",
-              "endTimeUnixNano": "1782462668515000000",
+              "startTimeUnixNano": "1788575116660000000",
+              "endTimeUnixNano": "1788575116995000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1229,12 +1229,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "20e4b07845fb0f8a",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "65044a2600a0e215",
               "name": "GET /v2/style.css",
               "kind": 3,
-              "startTimeUnixNano": "1782462668318000000",
-              "endTimeUnixNano": "1782462668574000000",
+              "startTimeUnixNano": "1788575116660000000",
+              "endTimeUnixNano": "1788575116992000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1284,67 +1284,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "c9aba8d979cbb224",
-              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png",
-              "kind": 3,
-              "startTimeUnixNano": "1782462668318000000",
-              "endTimeUnixNano": "1782462668764000000",
-              "attributes": [
-                {
-                  "key": "http.request.method",
-                  "value": {
-                    "stringValue": "GET"
-                  }
-                },
-                {
-                  "key": "url.full",
-                  "value": {
-                    "stringValue": "https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
-                  }
-                },
-                {
-                  "key": "url.scheme",
-                  "value": {
-                    "stringValue": "https"
-                  }
-                },
-                {
-                  "key": "server.address",
-                  "value": {
-                    "stringValue": "rawcdn.githack.com"
-                  }
-                },
-                {
-                  "key": "url.path",
-                  "value": {
-                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
-                  }
-                },
-                {
-                  "key": "url.query",
-                  "value": {
-                    "stringValue": ""
-                  }
-                },
-                {
-                  "key": "http.response.status_code",
-                  "value": {
-                    "intValue": "301"
-                  }
-                }
-              ],
-              "status": {
-                "code": 1
-              }
-            },
-            {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "5a24cc8cfa435c6f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "9eab7fa2ec59301c",
               "name": "GET /failed-request",
               "kind": 3,
-              "startTimeUnixNano": "1782462668318000000",
-              "endTimeUnixNano": "1782462668455000000",
+              "startTimeUnixNano": "1788575116661000000",
+              "endTimeUnixNano": "1788575116718000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1394,12 +1339,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "8c9720cd78775a82",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "1c42391bda6f13eb",
               "name": "GET /api/products",
               "kind": 3,
-              "startTimeUnixNano": "1782462668318000000",
-              "endTimeUnixNano": "1782462668454000000",
+              "startTimeUnixNano": "1788575116661000000",
+              "endTimeUnixNano": "1788575116718000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1449,12 +1394,67 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "677acb2e078e87e7",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "00ea832dbd08a21f",
+              "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png",
+              "kind": 3,
+              "startTimeUnixNano": "1788575116661000000",
+              "endTimeUnixNano": "1788575116971000000",
+              "attributes": [
+                {
+                  "key": "http.request.method",
+                  "value": {
+                    "stringValue": "GET"
+                  }
+                },
+                {
+                  "key": "url.full",
+                  "value": {
+                    "stringValue": "https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.scheme",
+                  "value": {
+                    "stringValue": "https"
+                  }
+                },
+                {
+                  "key": "server.address",
+                  "value": {
+                    "stringValue": "rawcdn.githack.com"
+                  }
+                },
+                {
+                  "key": "url.path",
+                  "value": {
+                    "stringValue": "/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png"
+                  }
+                },
+                {
+                  "key": "url.query",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "http.response.status_code",
+                  "value": {
+                    "intValue": "301"
+                  }
+                }
+              ],
+              "status": {
+                "code": 1
+              }
+            },
+            {
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "9ac74055ef4bc213",
               "name": "GET /_next/static/chunks/29107295.60aed194eb277afd0454.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668366000000",
-              "endTimeUnixNano": "1782462668640000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116901000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1504,12 +1504,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "6f5f4270ce85a343",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "3538692882075122",
               "name": "GET /_next/static/chunks/b8893a6f06b70a9cc8257c2531fbea864096704d.05e7f7f46ea57d13f14e.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668366000000",
-              "endTimeUnixNano": "1782462668424000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116900000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1559,12 +1559,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "2c80f9841f74efac",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "f549f0f10667ea67",
               "name": "GET /_next/static/chunks/0d59522aa4d49d537fa1e452691a43255e2011f7.adbef18771ef32571618.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668366000000",
-              "endTimeUnixNano": "1782462668436000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116897000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1614,12 +1614,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "ac65bf977c2af462",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "0ee2078057975587",
               "name": "GET /_next/static/chunks/5dd68d992e454f53e934be0a6bdc449c090bf9c7.f2490c72bf1e9ef92406.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668366000000",
-              "endTimeUnixNano": "1782462668437000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116901000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1669,12 +1669,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "2fd0b0cfed032211",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "7a0a259eb1f9e2c0",
               "name": "GET /_next/static/chunks/2b8c65fe6e4196f9b8c8b1e63b2b0283938369f1.eb7071b213b115eacbb9.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668366000000",
-              "endTimeUnixNano": "1782462668489000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116902000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1724,12 +1724,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "c1eb1fe25fd410fb",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "4d71d286b912367d",
               "name": "GET /_next/static/chunks/pages/index-46025e1d8ae72b35b244.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668367000000",
-              "endTimeUnixNano": "1782462668491000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575116880000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1779,12 +1779,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "cfa4dd3dff6e992d",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "9538b20395b5e4fc",
               "name": "GET /_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668367000000",
-              "endTimeUnixNano": "1782462668496000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575117213000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1834,12 +1834,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "91214a34b0fcb92b",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "c7366e90a1bf166c",
               "name": "GET /_next/static/chunks/pages/orders-223096301414cf664756.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668367000000",
-              "endTimeUnixNano": "1782462668590000000",
+              "startTimeUnixNano": "1788575116708000000",
+              "endTimeUnixNano": "1788575117241000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1889,12 +1889,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "67a24fe98444baed",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "4ff25a2eb81c0adc",
               "name": "GET /_next/static/chunks/pages/favourites-2cd72172780bef47423d.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462668367000000",
-              "endTimeUnixNano": "1782462668595000000",
+              "startTimeUnixNano": "1788575116709000000",
+              "endTimeUnixNano": "1788575117267000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1944,12 +1944,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "1f174f49d09e311c",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "da7c30c960b7a425",
               "name": "GET /_next/static/images/iPhone12-device-info-ae9cbd420e3fd8ba91e664d60ac12117.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668488000000",
-              "endTimeUnixNano": "1782462668616000000",
+              "startTimeUnixNano": "1788575116715000000",
+              "endTimeUnixNano": "1788575116956000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -1999,12 +1999,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "36e309d96891754f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "5b5fcc254086675e",
               "name": "GET /_next/static/images/iPhone12Pro-device-info-5e543206a6555d05dfe97191c4283f73.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668488000000",
-              "endTimeUnixNano": "1782462668660000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116881000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2054,12 +2054,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "0679ce856c8c35e0",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "a7a4b03022aae275",
               "name": "GET /_next/static/images/iPhone11-device-info-271b6e122eab30028885b99ddf1897f2.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668488000000",
-              "endTimeUnixNano": "1782462668600000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116882000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2109,12 +2109,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "795f4eb972bad75a",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "e168e62b3cb6b5dd",
               "name": "GET /_next/static/images/infocardiphone11Pro-b38c45f2dbc8bf3d015ad5df3675c44e.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668567000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116895000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2164,12 +2164,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "76921d50a181153f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "5a956d20bc8645d5",
               "name": "GET /_next/static/images/infocard-c81eec0e8c6a112a8d29e14b666bd73a.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668639000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116838000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2219,12 +2219,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "9e74a635a90525ed",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "9240f9e531163415",
               "name": "GET /_next/static/images/infoiphoneXR-1e7e90357d8dbe28e588246dc25bc6e8.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668784000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116835000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2274,12 +2274,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "01aa521f914f0c3b",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "81300c54978b2527",
               "name": "GET /_next/static/images/samsung-S20-device-info-4ab282506f4122c9b67a274bf84d0904.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668569000000",
+              "startTimeUnixNano": "1788575116716000000",
+              "endTimeUnixNano": "1788575116949000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2329,12 +2329,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "d38df815871952f9",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "7d371f29f090b1c0",
               "name": "GET /_next/static/images/samsung-S20+-device-info-8ee506199a5b71b64f3a3110c23a1469.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668581000000",
+              "startTimeUnixNano": "1788575116717000000",
+              "endTimeUnixNano": "1788575116900000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2384,12 +2384,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "aeb839a429650307",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "083edcc7ff68bc57",
               "name": "GET /_next/static/images/samsung-S20Ultra-device-info-b93a8e6bcaa77328bffa2d6e6f03344a.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462669518000000",
+              "startTimeUnixNano": "1788575116717000000",
+              "endTimeUnixNano": "1788575116943000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2439,12 +2439,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "5f6ac780c3f2128f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "1de4bf8c68da44ff",
               "name": "GET /_next/static/images/samsung-S10-device-info-9f3928ba960dc83a678cb6ff1462db2f.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668733000000",
+              "startTimeUnixNano": "1788575116717000000",
+              "endTimeUnixNano": "1788575117001000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2494,12 +2494,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "0d91a6e7817cc116",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "32c8ebaf310b382b",
               "name": "GET /_next/static/images/samsung-s9-device-info-d75c525dac1b0cf0a136fd01a55bc50d.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668811000000",
+              "startTimeUnixNano": "1788575116717000000",
+              "endTimeUnixNano": "1788575116957000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2549,12 +2549,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "2b9b6c81d3b2c8d6",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "0683ac3b3084563a",
               "name": "GET /_next/static/images/Note20-device-info-99c852e5f52ddbc899791be3dd959250.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668771000000",
+              "startTimeUnixNano": "1788575116718000000",
+              "endTimeUnixNano": "1788575117009000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2604,12 +2604,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "31b25687f1842a37",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "4627e1261bd604cd",
               "name": "GET /_next/static/images/Note20Ultra-device-info-a1bbf05183e009b70302625ccc0b6956.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668489000000",
-              "endTimeUnixNano": "1782462668781000000",
+              "startTimeUnixNano": "1788575116718000000",
+              "endTimeUnixNano": "1788575117058000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2659,12 +2659,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "74f5319391f417e5",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "f14c47afd71e8691",
               "name": "GET /_next/static/images/GooglePixel4-device-info-89a633a90cb47defe8be62ef9d7fab55.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668792000000",
+              "startTimeUnixNano": "1788575116718000000",
+              "endTimeUnixNano": "1788575117016000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2714,12 +2714,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "8b7a702e3f023262",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "a587e9a88afeb504",
               "name": "GET /_next/static/images/GooglePixel3-device-info-aa71987dd931d10cec5869115acb14d8.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668831000000",
+              "startTimeUnixNano": "1788575116718000000",
+              "endTimeUnixNano": "1788575117022000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2769,12 +2769,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "bb0a56f5b84fae06",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "bb26696140d65926",
               "name": "GET /_next/static/images/OnePlus8-device-info-8dcc8a8866758f442dcd6320b427ddb1.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668847000000",
+              "startTimeUnixNano": "1788575116719000000",
+              "endTimeUnixNano": "1788575117078000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2824,12 +2824,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "e548aa8c640ab820",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "8b1bd1341ff26ac9",
               "name": "GET /_next/static/images/OnePlus7T-DeviceInfo-474bb8055a5f4e9844902c12686fe7a7.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668889000000",
+              "startTimeUnixNano": "1788575116719000000",
+              "endTimeUnixNano": "1788575117123000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2879,12 +2879,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "8c4c8d1e14c6b329",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "afeb2799e4fbe158",
               "name": "GET /_next/static/images/oneplus7device-info-f5dd98801fff2db5313fbd1a184ff12a.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668897000000",
+              "startTimeUnixNano": "1788575116719000000",
+              "endTimeUnixNano": "1788575117077000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2934,12 +2934,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "3f1c598585a0261c",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "39573a13a03b5764",
               "name": "GET /_next/static/images/Oneplus6T_infocard-f7aca55bf5ed2d738101270c59c704e4.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668490000000",
-              "endTimeUnixNano": "1782462668905000000",
+              "startTimeUnixNano": "1788575116719000000",
+              "endTimeUnixNano": "1788575117130000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -2989,12 +2989,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "2342ef65b2f8cc48",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "d42e3ac55b11bffc",
               "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462668609000000",
-              "endTimeUnixNano": "1782462669689000000",
+              "startTimeUnixNano": "1788575116727000000",
+              "endTimeUnixNano": "1788575117124000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3044,12 +3044,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "d00e2d85ba2b3fd6",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "d844e2c6df05773a",
               "name": "GET /favicon.svg",
               "kind": 3,
-              "startTimeUnixNano": "1782462669700000000",
-              "endTimeUnixNano": "1782462669833000000",
+              "startTimeUnixNano": "1788575117141000000",
+              "endTimeUnixNano": "1788575117203000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3099,12 +3099,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "728f43c2ee859596",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "810ebf30c1ef3450",
               "name": "GET /_next/static/chunks/pages/offers-13780a7a3e9ab1a28d94.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462670793000000",
-              "endTimeUnixNano": "1782462670924000000",
+              "startTimeUnixNano": "1788575118995000000",
+              "endTimeUnixNano": "1788575119070000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3154,12 +3154,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "afda93f82eef1b36",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "8cb99ba28ee5fec8",
               "name": "GET /_next/static/chunks/pages/signin-6c7cad8c939f99206e7e.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462670793000000",
-              "endTimeUnixNano": "1782462670900000000",
+              "startTimeUnixNano": "1788575118995000000",
+              "endTimeUnixNano": "1788575119121000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3209,12 +3209,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "b319f737970ae88f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "9a5d2cca9998839d",
               "name": "GET /favicon.svg",
               "kind": 3,
-              "startTimeUnixNano": "1782462670927000000",
-              "endTimeUnixNano": "1782462671052000000",
+              "startTimeUnixNano": "1788575119181000000",
+              "endTimeUnixNano": "1788575119235000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3264,12 +3264,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "df15f94a7704584f",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "bb0e9fc18527b2f0",
               "name": "POST /api/signin",
               "kind": 3,
-              "startTimeUnixNano": "1782462676045000000",
-              "endTimeUnixNano": "1782462676189000000",
+              "startTimeUnixNano": "1788575124672000000",
+              "endTimeUnixNano": "1788575124724000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3331,12 +3331,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "784b07f4857e3dc6",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "c60ad6c393d084d7",
               "name": "GET /failed-request",
               "kind": 3,
-              "startTimeUnixNano": "1782462676204000000",
-              "endTimeUnixNano": "1782462676332000000",
+              "startTimeUnixNano": "1788575124852000000",
+              "endTimeUnixNano": "1788575124906000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3386,12 +3386,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "487d4b05679199f8",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "2d284080121b65f9",
               "name": "GET /api/products",
               "kind": 3,
-              "startTimeUnixNano": "1782462676204000000",
-              "endTimeUnixNano": "1782462676258000000",
+              "startTimeUnixNano": "1788575124853000000",
+              "endTimeUnixNano": "1788575124906000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3441,12 +3441,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "643e885a8b4884f2",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "fd59764084451d2e",
               "name": "GET /favicon.svg",
               "kind": 3,
-              "startTimeUnixNano": "1782462676210000000",
-              "endTimeUnixNano": "1782462676265000000",
+              "startTimeUnixNano": "1788575124863000000",
+              "endTimeUnixNano": "1788575124921000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3496,12 +3496,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "b41a2b09c99200e3",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "cfda1ec517ff92a0",
               "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462677129000000",
-              "endTimeUnixNano": "1782462677433000000",
+              "startTimeUnixNano": "1788575125772000000",
+              "endTimeUnixNano": "1788575125802000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3551,12 +3551,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "c2cecae5bc343d35",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "5a012ca8edd60ba4",
               "name": "GET /jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/sprite_delete-icon.png",
               "kind": 3,
-              "startTimeUnixNano": "1782462677432000000",
-              "endTimeUnixNano": "1782462677840000000",
+              "startTimeUnixNano": "1788575125803000000",
+              "endTimeUnixNano": "1788575126130000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3606,12 +3606,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "c84b97ebba40a8a5",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "78c04b8ca6f90f1e",
               "name": "GET /_next/static/chunks/pages/checkout-3f66f386b41904cff833.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462678222000000",
-              "endTimeUnixNano": "1782462678660000000",
+              "startTimeUnixNano": "1788575126857000000",
+              "endTimeUnixNano": "1788575126915000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3661,12 +3661,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "3ccebf30e1f873d5",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "4a44b110774a990d",
               "name": "GET /favicon.svg",
               "kind": 3,
-              "startTimeUnixNano": "1782462678718000000",
-              "endTimeUnixNano": "1782462679273000000",
+              "startTimeUnixNano": "1788575127035000000",
+              "endTimeUnixNano": "1788575127094000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3716,12 +3716,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "101ae4ac4759c581",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "871acf8b7c7de37a",
               "name": "POST /api/checkout",
               "kind": 3,
-              "startTimeUnixNano": "1782462684577000000",
-              "endTimeUnixNano": "1782462684698000000",
+              "startTimeUnixNano": "1788575133052000000",
+              "endTimeUnixNano": "1788575133107000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3783,12 +3783,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "7bddf8c23745b28a",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "907f5ff0ba302962",
               "name": "GET /_next/static/chunks/e78312c5.0ae29da10b8cbfe2032d.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462684757000000",
-              "endTimeUnixNano": "1782462685246000000",
+              "startTimeUnixNano": "1788575133125000000",
+              "endTimeUnixNano": "1788575133343000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3838,12 +3838,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "f4b25a4f95a0c458",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "36c32e70ac0ff13c",
               "name": "GET /_next/static/chunks/pages/confirmation-49ed9afb00468d634016.js",
               "kind": 3,
-              "startTimeUnixNano": "1782462684757000000",
-              "endTimeUnixNano": "1782462684866000000",
+              "startTimeUnixNano": "1788575133125000000",
+              "endTimeUnixNano": "1788575133238000000",
               "attributes": [
                 {
                   "key": "http.request.method",
@@ -3893,12 +3893,12 @@
               }
             },
             {
-              "traceId": "6ba4e1696c6f3f6e9d276adb1ffcbc18",
-              "spanId": "1d6621b29aba1392",
+              "traceId": "49c8e14ebed1eefbb456eb0cf70fddbe",
+              "spanId": "afe191b7df4d05b4",
               "name": "GET /favicon.svg",
               "kind": 3,
-              "startTimeUnixNano": "1782462685297000000",
-              "endTimeUnixNano": "1782462685352000000",
+              "startTimeUnixNano": "1788575133501000000",
+              "endTimeUnixNano": "1788575133560000000",
               "attributes": [
                 {
                   "key": "http.request.method",

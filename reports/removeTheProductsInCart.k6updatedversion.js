@@ -140,7 +140,7 @@ export default function () {
     authToken = extractValue(signinJson, ['token', 'accessToken', 'jwt'])
     effectiveUser = extractValue(signinJson, ['userName', 'username']) || activeUser.userName
   })
-  sleep(0.014)
+  sleep(0.108)
 
   group('02_get', () => {
     const res = http.get(`${BASE_URL}${'/'}`, {
@@ -152,7 +152,7 @@ export default function () {
       'status is 200': (r) => r.status == 200,
     })
   })
-  sleep(0.479)
+  sleep(0.523)
 
   group('03_get__api_products', () => {
     const res = http.get(`${BASE_URL}${'/api/products'}`, {
@@ -164,7 +164,7 @@ export default function () {
       'status is 200': (r) => r.status == 200,
     })
   })
-  sleep(8.084)
+  sleep(8.076)
 
   group('04_get__api_products_username_demouser', () => {
     const res = http.get(`${BASE_URL}${withCorrelatedUser('/api/products?userName=demouser', effectiveUser)}`, {

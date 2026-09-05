@@ -11,7 +11,7 @@ export const options = {}
 export default function main() {
   let response
 
-  group('page@1a3bd194f59f291d6bf54bbe34d4322b - StackDemo', function () {
+  group('page@9d216e25ca08185b9aac2d921893d37c - StackDemo', function () {
     response = http.get('https://bugbash.online/', {
       headers: {
         Accept:
@@ -502,28 +502,6 @@ export default function main() {
       },
     })
 
-    response = http.get(
-      'https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png',
-      {
-        headers: {
-          accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-          'accept-encoding': 'gzip, deflate, br, zstd',
-          'accept-language': 'en-US',
-          priority: 'u=1, i',
-          referer: 'https://bugbash.online/',
-          'sec-ch-ua': '"Not/A)Brand";v="99", "Chromium";v="148"',
-          'sec-ch-ua-mobile': '?0',
-          'sec-ch-ua-platform': '"Windows"',
-          'sec-fetch-dest': 'image',
-          'sec-fetch-mode': 'no-cors',
-          'sec-fetch-site': 'cross-site',
-          'sec-fetch-storage-access': 'active',
-          'user-agent':
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Safari/537.36',
-        },
-      }
-    )
-
     response = http.get('https://bugbash.online/failed-request', {
       headers: {
         Accept: 'application/json, text/plain, */*',
@@ -561,6 +539,28 @@ export default function main() {
         'sec-ch-ua-platform': '"Windows"',
       },
     })
+
+    response = http.get(
+      'https://rawcdn.githack.com/jeffersonRibeiro/react-shopping-cart/ccf64841ddfdfedfce9821b2b7ff2c8075afb17c/src/static/bag-icon.png',
+      {
+        headers: {
+          accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+          'accept-encoding': 'gzip, deflate, br, zstd',
+          'accept-language': 'en-US',
+          priority: 'u=1, i',
+          referer: 'https://bugbash.online/',
+          'sec-ch-ua': '"Not/A)Brand";v="99", "Chromium";v="148"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'sec-fetch-dest': 'image',
+          'sec-fetch-mode': 'no-cors',
+          'sec-fetch-site': 'cross-site',
+          'sec-fetch-storage-access': 'active',
+          'user-agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Safari/537.36',
+        },
+      }
+    )
 
     response = http.get(
       'https://bugbash.online/_next/static/chunks/29107295.60aed194eb277afd0454.js',
@@ -1411,7 +1411,7 @@ export default function main() {
           accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
           'accept-encoding': 'gzip, deflate, br, zstd',
           'accept-language': 'en-US',
-          priority: 'u=1, i',
+          priority: 'i',
           referer: 'https://bugbash.online/',
           'sec-ch-ua': '"Not/A)Brand";v="99", "Chromium";v="148"',
           'sec-ch-ua-mobile': '?0',
